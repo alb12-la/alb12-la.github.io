@@ -1,5 +1,5 @@
 ---
-title: 'Interactive Scrolling Demo'
+title: 'Interactive Scrolling Example'
 date: 2018-06-30 00:00:00
 description: A small snippet that shows one way to synchronize the a users scrolling with an illustration. 
 featured_image: '/images/projects/interactive-scrolling.jpg'
