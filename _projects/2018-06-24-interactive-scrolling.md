@@ -23,3 +23,20 @@ Next, I subscribe to the `onscroll` event to track the `pageYOffset` , from ther
 
 <iframe src="https://player.vimeo.com/video/328360488?title=0&byline=0&portrait=0" width="640" height="435" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+The magic is really all in the [updateIllustrationOffset()](https://github.com/alb12-la/interactive-scrolling/blob/master/index.html#L56) function that is constantly checking the current scroll distance from the top of the window, and comparing that to preset trigger points. 
+```javascript 
+...
+/* trigger_01 */
+else if (trigger_01 <= distanceFromTop && distanceFromTop < trigger_02) {
+    illustrationContainer.className = "positionA";
+    illustration.setAttribute("style", "transform: translate(-50%,-12.7%);")
+}
+/* trigger_02 */
+else if (trigger_02 <= distanceFromTop && distanceFromTop < trigger_03) {
+    illustrationContainer.className = "positionB";
+    illustration.setAttribute("style", "transform:translate(-50%,-37.7%)");
+}
+...
+```
+
+If you're looking to create something similar, feel free to use this example to get you started!
