@@ -1,8 +1,8 @@
 ---
-title: 'Interactive Scrolling Example'
+title: 'Interactive Scrolling'
 date: 2018-06-30 00:00:00
 description: A small snippet that shows one way to synchronize the a users scrolling with an illustration. 
-featured_image: '/images/projects/interactive-scrolling.jpg'
+featured_image: '/images/projects/interactive_scroll/thumbnail.png'
 ---
 
 A while back I created a webpage that when viewed on a desktop,  synchronized an illustration to a users scrolling. I thought it was neat and wanted to share it. 
