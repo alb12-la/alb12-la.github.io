@@ -9,7 +9,7 @@ Rae's Travels is a personal project in which I created an Angular web app that c
 
 This specific profile, is of [Terazha Pitts](https://www.instagram.com/tpittts/) from sunny California who is a perfect guinea pig for this project since she's loves the idea of being able to visualize her travels in one place. The entries we've listed here are only a small handful of the places she's been to. 
 
-[Check out the live site!](http://raestravels.com/)
+[Check out the live site!](http://alb.works/rae_travels/)
 
 <div class="gallery" data-columns="2">
     <img src="/images/projects/raes_travels/spain-focus-1.png">
